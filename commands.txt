@@ -1,0 +1,28 @@
+git log
+		--graph --oneline [branch1] [branch2] [branch3]
+					: draws a diagram of the recent commits in the repository including the branches specified
+git clone [location]
+git diff				: compare working directory and staged
+        	--staged 		: compare staged with commit1
+git diff commit1 commit2 : those specific commits 
+git init
+git add [filename]
+git reset				: clear staging area
+git reset [filename]	: clear [filename] from staging area
+git commit
+git status
+git branch			: status of branch
+  		[name]		: makes new branch with [name]
+git checkout [commit or branch]
+git gc				: garbage collector - cleans up unreachable commits when a branch is deleted
+git merge [branchname]	: merge [branchname] with current branch 
+**for merge conflicts
+git merge --abort		: restore files to their state before you started the merge
+git remote
+		add [origin] [location]
+					: make a reference for the remote locatio
+		-v			: see your add 
+git push -u [origin] [branch]
+					: push local changes to remote location
+git pull				: pull remote changes locally
+
