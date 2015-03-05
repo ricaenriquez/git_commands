@@ -12,3 +12,6 @@ Branch - a version or part of a repository
 What is the benefit of having a copy of the last known state of the remote stored locally?
 I may have messed up while editing so it's nice to have a good working copy to go back to
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would probably use dropbox or e-mail. It would be easier for the the other person since they wouldn't need to know how to use git/github. But, it would be harder to track all the changes and sync them.
+
