@@ -16,6 +16,8 @@ git branch			: status of branch
 git checkout [commit or branch]
 git gc				: garbage collector - cleans up unreachable commits when a branch is deleted
 git merge [branchname]	: merge [branchname] with current branch 
+git merge [branchname1] [branchname2]
+					: merge [branchname1] with [branchname2] 
 **for merge conflicts
 git merge --abort		: restore files to their state before you started the merge
 git remote
@@ -23,6 +25,8 @@ git remote
 					: make a reference for the remote locatio
 		-v			: see your add 
 git push -u [origin] [branch]
-					: push local changes to remote location
-git pull				: pull remote changes locally
+					: pushes local changes to [branch] to remote location [origin]
+git fetch [origin]		: gets remote version
+git pull [origin] [branch]				
+					: fetches and merges remote changes with local changes
 
