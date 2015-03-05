@@ -9,3 +9,6 @@ Forks - clone from a GitHub repository, references original repository
 Cones - a copy of a whole repository
 Branch - a version or part of a repository
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+I may have messed up while editing so it's nice to have a good working copy to go back to
+
